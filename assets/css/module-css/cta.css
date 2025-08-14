@@ -1,0 +1,92 @@
+/***
+
+==================================================================
+	Cta Section
+==================================================================
+
+***/
+.cta-section {
+    position: relative;
+    background: linear-gradient(270deg, #CB38FF 0%, #682FFF 100%);
+    padding: 90px 0 100px 0;
+    overflow: hidden;
+}
+.cta-1-bg {
+    position: absolute;
+    top: -50px;
+    left: -356px;
+    right: 0px;
+    bottom: -48px;
+    background-size: cover;
+    -webkit-animation: service_hexagon_2 40s infinite linear;
+    -moz-animation: service_hexagon_2 40s infinite linear;
+    -o-animation: service_hexagon_2 40s infinite linear;
+    animation: service_hexagon_2 40s infinite linear;
+}
+.section_heading_title_big {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 600;
+    color: var(--white-color);
+    margin-bottom: 50px;
+}
+.btn-1 {
+    position: relative;
+    display: inline-flex;
+    overflow: hidden;
+    padding: 17px 35px 16px;
+    text-align: center;
+    z-index: 1;
+    color: #111111;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: .5s;
+    background-color:rgba(255, 255, 255, 1);
+    border-radius: 55px;
+}
+.btn-1:hover{
+	color: var(--white-color);
+}
+.btn-1:before, .btn-1:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    content: '';
+    z-index: -1;
+	background: var(--title-color);
+	color: var(--white-color);
+    transition: all 900ms ease;
+    -moz-transition: all 900ms ease;
+    -webkit-transition: all 900ms ease;
+    -ms-transition: all 900ms ease;
+    -o-transition: all 900ms ease;
+}
+.btn-1:hover:before{
+    width: 100%;
+}
+.btn-1:hover:after {
+    border-radius: 55px;
+    transform: scale(1) rotate(180deg);
+}
+
+
+/* --------------------------- */
+.cta-section-two {
+    position: relative;
+    background-color: #19191A;
+    padding: 90px 0 100px 0;
+    overflow: hidden;
+}
+
+.cta-2-bg {
+    position: absolute;
+    top: -50px;
+    left: -356px;
+    right: 0px;
+    bottom: -48px;
+    background-size: cover;
+}
